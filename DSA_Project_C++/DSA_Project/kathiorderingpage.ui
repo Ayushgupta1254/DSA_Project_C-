@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KathiOrderingPage</class>
+ <widget class="QDialog" name="KathiOrderingPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>921</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>921</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>                                                                      Kathi Food Menu</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>39</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>                Meals</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>69</y>
+     <width>241</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbFries">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Fries : Rs.50</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbCholeBhature">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Chole-Bhature : Rs.70</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbChickenFries">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Chicken-Fries : Rs.200</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbPannerRoll">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Panner-Roll : Rs.100</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbHoneyChili">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Honey-Chili : Rs.100</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbBurger">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Burger : Rs.70</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbChickenRoll">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>ChickenRoll : Rs.180</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbPavBhaji">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Pav-Bhaji : Rs.130</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbMomo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Momo : Rs.60</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbFriedRice">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>450</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Fried-Rice : Rs.90</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtFries">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>90</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtCholeBhature">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtChickenFries">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>170</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPannerRoll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>210</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtHoneyChili">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>250</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtBurger">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>290</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtChickenRoll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>330</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPavBhaji">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>370</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtMomo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>410</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtFriedRice">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>450</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>                            Desert</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>69</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbHashBrown">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>80</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Hash Brown : Rs.80</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbIceCream">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>120</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Ice-Cream : Rs.50</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbMuffin">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>160</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Muffin : Rs.40</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbPastry">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>200</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Pastry : Rs.70</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbMilkShake">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>240</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Milk Shake : Rs.120</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>280</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>                             Drinks</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>310</y>
+     <width>211</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbTea">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>330</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Tea : Rs.20</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbCoffee">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>370</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Coffee : Rs.30</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbCola">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>410</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Cola : Rs.40</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckbWater">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>450</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Water : Rs.25</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtHashBrown">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>80</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtIceCream">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>120</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtMuffin">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>160</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPastry">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>200</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtMilkShake">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>240</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTea">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>330</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtCoffee">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>370</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtCola">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>410</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtWater">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>450</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReset">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>160</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>40</y>
+     <width>471</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>                                                Total</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTotal">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>80</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>80</y>
+     <width>471</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnTotal">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>120</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Total</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listForBill">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>210</y>
+     <width>256</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>120</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cart</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtEnroll">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>500</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>500</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Enroll. No. :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>500</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Date :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtDate">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>500</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOrder">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>160</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Order</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>500</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Time :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTime">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>500</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>ckbFries</zorder>
+  <zorder>ckbCholeBhature</zorder>
+  <zorder>ckbChickenFries</zorder>
+  <zorder>ckbPannerRoll</zorder>
+  <zorder>ckbHoneyChili</zorder>
+  <zorder>ckbBurger</zorder>
+  <zorder>ckbChickenRoll</zorder>
+  <zorder>ckbPavBhaji</zorder>
+  <zorder>ckbMomo</zorder>
+  <zorder>ckbFriedRice</zorder>
+  <zorder>txtFries</zorder>
+  <zorder>txtCholeBhature</zorder>
+  <zorder>txtChickenFries</zorder>
+  <zorder>txtPannerRoll</zorder>
+  <zorder>txtHoneyChili</zorder>
+  <zorder>txtBurger</zorder>
+  <zorder>txtChickenRoll</zorder>
+  <zorder>txtPavBhaji</zorder>
+  <zorder>txtMomo</zorder>
+  <zorder>txtFriedRice</zorder>
+  <zorder>label_4</zorder>
+  <zorder>ckbHashBrown</zorder>
+  <zorder>ckbIceCream</zorder>
+  <zorder>ckbMuffin</zorder>
+  <zorder>ckbPastry</zorder>
+  <zorder>ckbMilkShake</zorder>
+  <zorder>ckbTea</zorder>
+  <zorder>ckbCoffee</zorder>
+  <zorder>ckbCola</zorder>
+  <zorder>ckbWater</zorder>
+  <zorder>txtHashBrown</zorder>
+  <zorder>txtIceCream</zorder>
+  <zorder>txtMuffin</zorder>
+  <zorder>txtPastry</zorder>
+  <zorder>txtMilkShake</zorder>
+  <zorder>txtTea</zorder>
+  <zorder>txtCoffee</zorder>
+  <zorder>txtCola</zorder>
+  <zorder>txtWater</zorder>
+  <zorder>btnReset</zorder>
+  <zorder>label_8</zorder>
+  <zorder>txtTotal</zorder>
+  <zorder>btnTotal</zorder>
+  <zorder>listForBill</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>txtEnroll</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>txtDate</zorder>
+  <zorder>btnOrder</zorder>
+  <zorder>label_12</zorder>
+  <zorder>txtTime</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
